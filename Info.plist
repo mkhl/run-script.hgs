@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.purl.net.mkhl.run-script</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HGSPluginAPIVersion</key>
+	<string>${VERMILLION_PLUGIN_API_VERSION}</string>
+	<key>HGSExtensions</key>
+	<array>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>org.purl.net.mkhl.run-script.action.run-shell-script</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>Run Shell Script</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>run_shell_script</string>
+			<key>HGSAppleScriptFileName</key>
+			<string>RunScript</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
+			<string>org.purl.net.mkhl.run-script.action.run-in-terminal</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>Run in Terminal</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>run_in_terminal</string>
+			<key>HGSAppleScriptFileName</key>
+			<string>RunScript</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<string>text</string>
+		</dict>
+	</array>
+</dict>
+</plist>
