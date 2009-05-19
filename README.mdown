@@ -8,12 +8,12 @@ A [Google Quick Search Box][qsb] plugin to add actions for running scripts.
 * Type the shell command you want to run.
   *[Hint: To get a text object, type an initial space.]*
 * *Tab* into the text object.
-* Choose the “Run Shell Script” action to run your script in the
-  background, or the “Run in Terminal” action to run it inside a new
-  Terminal.app window.
+* Choose the *“Run Shell Script”* action to run your script in the background,
+  or the *“Run in Terminal”* action to run it inside a new `Terminal.app`
+  window.
 * Hit enter to run the script.
 
-## Installation Instructions
+## Installation
 
 After extracting the plugin, you will find a bundle called `RunScript.hgs`.
 Copy this bundle to `~/Library/Application Support/Google/Quick Search
@@ -22,7 +22,7 @@ Box/PlugIns`, then restart QSB.
 If you built the plugin from source (described below), you will find the
 `RunScript.hgs` bundle in your `build` directory.
 
-## Build Instructions
+## Building
 
 Building this plugin requires that you set up two source trees in Xcode. You
 will have to have the QuickSearchBox source tree downloaded to your machine.
