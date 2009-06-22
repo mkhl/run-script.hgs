@@ -2,6 +2,8 @@
 
 A [Google Quick Search Box][qsb] plugin to add actions for running scripts.
 
+**Download the plugin: <http://github.com/mkhl/run-script.hgs/downloads>**
+
 ## Usage
 
 * Hit you QSB keyboard shortcut.
