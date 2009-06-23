@@ -4,6 +4,13 @@
 --  Licensed under the MIT License.
 --
 
+on run_applescript(results)
+	repeat with this_result in results
+		run script (name of this_result)
+	end repeat
+end run_applescript
+
+
 on run_shell_script(results)
 	repeat with this_result in results
 		do shell script (name of this_result)

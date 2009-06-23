@@ -40,6 +40,22 @@
 			<key>HGSExtensionPoint</key>
 			<string>HGSActionsExtensionPoint</string>
 			<key>HGSExtensionIdentifier</key>
+			<string>org.purl.net.mkhl.run-script.action.run-applescript</string>
+			<key>HGSExtensionUserVisibleName</key>
+			<string>Run AppleScript</string>
+			<key>HGSAppleScriptHandlerName</key>
+			<string>run_applescript</string>
+			<key>HGSAppleScriptFileName</key>
+			<string>RunScript</string>
+			<key>HGSActionDirectObjectTypes</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>HGSExtensionClass</key>
+			<string>HGSAppleScriptAction</string>
+			<key>HGSExtensionPoint</key>
+			<string>HGSActionsExtensionPoint</string>
+			<key>HGSExtensionIdentifier</key>
 			<string>org.purl.net.mkhl.run-script.action.run-in-terminal</string>
 			<key>HGSExtensionUserVisibleName</key>
 			<string>Run in Terminal</string>
